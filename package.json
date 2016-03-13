@@ -1,0 +1,38 @@
+{
+  "name": "procore-hiring",
+  "version": "1.0.0",
+  "description": "Procore coding challenge: build a react application with webpack, redux and react router",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://plasmodium@bitbucket.org/plasmodium/procore-hiring.git"
+  },
+  "author": "Ted Ly",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/plasmodium/procore-hiring#readme",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "babel-preset-stage-1": "^6.1.18",
+    "bluebird": "^3.3.3",
+    "firebase": "^2.4.1",
+    "immutable": "^3.7.6",
+    "lodash": "^4.6.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.0.0",
+    "react-router": "^2.0.0",
+    "redux": "^3.0.4",
+    "redux-promise": "^0.5.1"
+  }
+}

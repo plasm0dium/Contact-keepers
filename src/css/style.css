@@ -1,0 +1,61 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.button {
+  float: right;
+  line-height: 45px;
+}
+
+.modalheader {
+  background-color: #377aef;
+}
+
+label {
+  float: left;
+}
+
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./procore.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+thead {
+  background-color: #FAEBD7;
+}
+
+tbody {
+  background-color: #F0FFFF;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #ecf0f1;
+}
+
+.navbar-default {
+    background-color: #e67e22 !important;
+}
+
+.navbar-brand {
+  color: #ecf0f1 !important;
+}
+
+.center {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 10px;
+  color: #d35400;
+}

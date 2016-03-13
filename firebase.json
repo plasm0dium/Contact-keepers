@@ -1,0 +1,9 @@
+{
+  "firebase": "contact-keeper",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
